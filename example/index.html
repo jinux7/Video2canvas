@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vedio</title>
+</head>
+<script src="./assets/js/vedio2canvas.js"></script>
+<style>
+	#div_video {
+		width: 800px;
+		height: 500px;
+	}
+</style>
+<body>
+	<div id="div_video"></div>
+</body>
+<script>
+	new Video2canvas(document.querySelector('#div_video'),'/assets/video/earth.ogg');
+</script>
+</html>
